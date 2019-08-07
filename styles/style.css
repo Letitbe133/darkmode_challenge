@@ -53,3 +53,19 @@ main p {
   /* color: #333; */
   font-weight: 100;
 }
+
+.dark-bg {
+  background: #333;
+}
+
+.dark-bg--darken {
+  background: #1c1b1b;
+}
+
+.dark-text {
+  color: #ccc;
+}
+
+.dark-shadow {
+  box-shadow: 5px 5px 20px #1c1b1b;
+}
