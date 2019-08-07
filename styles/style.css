@@ -16,8 +16,8 @@ header {
   justify-content: flex-end;
 }
 
-header button {
-  background: #ccc;
+#mode-switcher {
+  background: rgb(250, 169, 103);
   border: none;
   padding: 5px 15px;
   color: inherit;
@@ -25,7 +25,7 @@ header button {
   transition: background 300ms ease;
 }
 
-header button:hover {
+#mode-switcher:hover {
   cursor: pointer;
   background: rgb(175, 175, 175);
 }
@@ -50,6 +50,5 @@ p {
 }
 
 main p {
-  /* color: #333; */
   font-weight: 100;
 }
